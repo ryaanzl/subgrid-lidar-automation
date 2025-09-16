@@ -56,10 +56,7 @@ All modul/library in requirements.txt
 install the dependencies using mamba
 
 ```bash
-mamba install -c conda-forge geopandas
-mamba install -c conda-forge laspy
-mamba install -c conda-forge pdal
-mamba install -c conda-forge alive-progress
+mamba install -c conda-forge geopandas laspy pdal alive-progress
 ```
 
 ### 3. Dependencies
