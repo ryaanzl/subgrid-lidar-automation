@@ -46,13 +46,20 @@ cd las-merging-pipeline
 
 ### 2. Create a virtual environment with mamba:
 ```bash
-mamba create -n lasenv python=3.11 -y
-mamba activate lasenv
+comda create -n lasenv python=3.11 -y
+conda activate lasenv
+conda install -c conda-forge mamba
 ```
 
 Install dependencies:
+All modul/library in requirements.txt
+install the dependencies using mamba
+
 ```bash
-pip install -r requirements.txt
+mamba install -c conda-forge geopandas
+mamba install -c conda-forge laspy
+mamba install -c conda-forge pdal
+mamba install -c conda-forge alive-progress
 ```
 
 ### 3. Dependencies
